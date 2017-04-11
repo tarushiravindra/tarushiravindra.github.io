@@ -1,0 +1,213 @@
+
+/************************
+ Global Styles
+ ***********************/
+ html,
+ body,
+ header{
+    text-align: justify; height: 100%;
+ }
+.view {
+    height: 100%;
+
+	text-align: justify;
+
+}
+body {
+    font-family: 'GilroyBold', sans-serif;
+    background: #fafafa;
+}
+
+.h1-responsive {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.container-fluid {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    }
+/************************
+Fonts
+***********************/
+@font-face {
+    font-family: GilroyBold;
+    src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+/************************
+Navigation
+***********************/
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #424242;
+    
+}
+.top-nav-collapse {
+    background-color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a {
+	font-size: 0.9rem;
+}
+/************************
+ Full page Intro Styles
+ ***********************/
+
+header {
+background: #fafafa; /* fallback for old browsers */
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.name {
+    color: #ff5a5f;
+
+   font-family: 'Pacifico', cursive;
+
+}
+.lead {
+	color: #8E979A;
+}
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+     .description {
+        text-align: left;
+    }
+}
+
+.flex-center {
+    padding-top: 1rem !important;
+    display: block;  
+}
+.description {
+    color: #424242;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+.description a {
+    color: #ff5a5f;
+}
+
+.description a:hover {
+    color: red;
+}
+.intro-para {
+    font-family:  'GilroyBold', sans-serif;
+    font-size: 300;
+}
+.tarushi {
+    background-color: #000;
+    background-image: url('../img/tarushi.jpg');
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 38rem;
+}
+/************************
+Work
+***********************/
+#work {
+    background: #fafafa;
+
+}
+.h1-projects {
+    font-weight: 700;
+    color: #F85C5C;
+    font-size: 35px;
+}
+#work p {
+color:	#6b7c93;
+
+}
+.card-title {
+	color: #404453;
+}
+.card-text {
+	color: #6b7c93;
+}
+.intro-project {
+    font-size: 18px;
+}
+/************************
+About
+***********************/
+
+.h1-about {
+    font-weight: 700;
+    color: #333333;
+    font-size: 35px;
+}
+.card {
+    background-color: #fff;
+    color: #6b7c93;
+    box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    transition: all .25s cubic-bezier(.02,.01,.47,1);
+}
+.card:hover {
+        box-shadow: 0 30px 30px rgba(0,0,0,.15);
+}
+
+.about-heading {
+	color: #16C6C0;
+	font-weight: 700;
+}
+.para  {
+  line-height: 30px;
+}
+.table td, .table th {
+    padding: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+
+.education, .work-exp {
+    text-align: left;
+}
+.first-col {
+    padding-right: 0.75rem !important;
+}
+
+/***********************
+Footer
+***********************/
+
+.social a {
+    font-size: 1.7rem;
+    color: #424242;
+}
+/***********************
+Responsive classes
+***********************/
+/*@media (min-width: 544px) {
+    .desc {
+        padding:0 2.5rem;
+        }
+    .edu {
+        padding:0 2.5rem;
+    }
+}
+
+@media (min-width: 992px)
+ {
+    .desc {
+        padding-left: 5rem;
+        padding-right: 1rem;
+        }
+    .edu {
+        padding-right: 5rem;
+        padding-left: 1rem;
+    }
+}*/
